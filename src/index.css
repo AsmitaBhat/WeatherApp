@@ -1,0 +1,93 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system
+  ,BlinkMacSystemFont,Segoe
+  UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica
+  Neue,sans-serif;
+  background-image:  url(./background.svg);
+}
+
+.header{
+  background-color: #DC7633;
+  height: 50px;
+  padding: 20px;
+  color: white;
+  text-align: center;
+}
+
+.topLeftHeading{
+
+  font-weight: bold;
+  float:left;
+  margin-left: 20px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  max-width: 50%;
+}
+
+.Nav {
+  display: flex;
+  float: right;
+  padding: 0;
+}
+
+.Nav li{
+  list-style-type: none;
+  margin: 10px;
+}
+
+a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #F7F9F9;
+}
+
+
+.active{
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.Home{
+  text-align: center;
+  margin-top: 200px;
+  flex-direction: column;
+}
+
+.homeHeading{
+  color: white;
+  font-weight: normal;
+  font-size: 50px;
+}
+
+.button{
+  color: #e6e6e6;
+  background: #27AE60;
+  border-width: thin;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  width: 200px;
+  display: block;
+  padding: 7px 7px;
+  margin: 10px auto;
+  text-decoration: none;
+  outline-color: transparent;
+}
+
+.inputContainer{
+  text-align: center;
+  margin-top: 70px;
+}
+
+.textBox{
+  width: 600px;
+  margin-bottom: 20px;
+  height: 40px;
+  border-radius: 10px;
+  font-size: 20px;
+  text-align: center;
+  outline-color: transparent;
+}
